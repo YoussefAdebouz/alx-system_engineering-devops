@@ -35,5 +35,3 @@
 * ***100-change_owner_and_group:*** a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 
 * ***103-Star_Wars:*** a script that will play the StarWars IV episode in the terminal
-
-* ***school.mgc:*** a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
