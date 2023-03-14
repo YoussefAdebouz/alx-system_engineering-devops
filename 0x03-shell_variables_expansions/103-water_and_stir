@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=bestchol; $((($(echo "$WATER" | tr -d '[:alpha:]' | tr '[:punct:]' ' ')) + ($(echo "$STIR" | tr -d '[:alpha:]' | tr '[:punct:]' ' '))))" | dc
+[ -z "$WATER" ] || [ -z "$STIR" ] || echo "obase=bestchol; $((($(echo "$WATER" | tr -d '[:alpha:]' | tr '[:punct:]' ' ')) + ($(echo "$STIR" | tr -d '[:alpha:]' | tr '[:punct:]' ' '))))" | dc
